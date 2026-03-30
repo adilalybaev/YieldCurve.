@@ -19,25 +19,25 @@
       gap: 10px;
     }
     model-viewer {
-      width: 100vw;
+      width:100vw;
       height: 100vh;
     }
     model-viewer::part(ar-button) {
       position: absolute;
-      top: 50%;
-      left: 50%;
-
+      top: 0%;
+      left: 75%;
+      
       background-color: #FF2400;
       color: white;
       border-radius: 8px;
       padding: 12px 24px;
-      font-size: 18px;
+      font-size: 18px
     }
   </style>
 </head>
 <body>
-  <model-viewer
-    src="Meshed Problem 1 (5).usdz"
+  <model-viewer 
+    src="Meshed Potato 1.glb" 
     ios-src="Meshed Problem 1 (5).usdz"
     ar
     ar-modes="webxr scene-viewer quick-look"
@@ -45,7 +45,7 @@
     auto-rotate>
 
     <button slot="ar-button">View in AR</button>
-
+    
   </model-viewer>
 </body>
 </html>
