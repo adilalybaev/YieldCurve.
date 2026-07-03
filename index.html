@@ -36,14 +36,17 @@
   </style>
 </head>
 <body>
-  <model-viewer
-      src="example.usdz"
-      ios-src="yield_curve.usdz"
-      ar
-      ar-modes="quick-look"
-      camera-controls>
-  
-      <button slot="ar-button">View in AR</button>
+  <model-viewer 
+    src="example.glb" 
+    ios-src="yield_curve.usdz"
+    ar
+    ar-modes="webxr scene-viewer quick-look"
+    camera-controls
+    auto-rotate>
+
+    <button slot="ar-button">View in AR</button>
+    
   </model-viewer>
+
 </body>
 </html>
